@@ -6,7 +6,7 @@ func main() {
 	a := 10
 	b := 20
 	c, d := func(a, b int) (int, int) {
-		res := a + b
+		res := a + b // first value
 		resII := a * b
 		return res, resII
 	}(a, b)
