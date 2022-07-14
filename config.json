@@ -1,4 +1,8 @@
 {
     "name": "config",
-    "version": 2
+    "version": 4,
+    "data": {
+        "value": 2.67   
+    }
+    
 }
