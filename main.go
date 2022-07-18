@@ -10,6 +10,7 @@ func main() {
 		resII := a * b    // second value
 		return res, resII // return two value
 	}(a, b)
+	///123456
 
 	fmt.Println("multiplication:", d)
 	fmt.Println("sum:", c)
