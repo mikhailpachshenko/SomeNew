@@ -9,10 +9,15 @@ func main() {
 	var seasonSelect string
 	fmt.Scan(&seasonSelect)
 	seasonSelect = strings.ToLower(seasonSelect)
+<<<<<<< HEAD
 	// 1
 	// 2
 	// 3
+=======
+	// Привести все вводимые варианты к нижнему регистру, для корректного сравнения в функции
+>>>>>>> parent of 6e0430d (1)
 
+	//double
 	switch seasonSelect {
 	case "декабрь", "январь", "февраль":
 		fmt.Printf("%s%s является месяцем Зимы\n", strings.ToUpper(seasonSelect[:2]), seasonSelect[2:])
