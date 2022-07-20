@@ -10,8 +10,6 @@ func main() {
 	fmt.Scan(&seasonSelect)
 	seasonSelect = strings.ToLower(seasonSelect)
 	// 1
-	// 2
-	// 3
 
 	switch seasonSelect {
 	case "декабрь", "январь", "февраль":
