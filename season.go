@@ -11,8 +11,6 @@ func main() {
 	seasonSelect = strings.ToLower(seasonSelect)
 	// 1
 	// 2
-	// 3
-
 	switch seasonSelect {
 	case "декабрь", "январь", "февраль":
 		fmt.Printf("%s%s является месяцем Зимы\n", strings.ToUpper(seasonSelect[:2]), seasonSelect[2:])
